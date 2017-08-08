@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-lazy',
-  template: `<h1 class="text-center">Lazy Component</h1>`
+  template: `<app-navbar></app-navbar>
+    <router-outlet></router-outlet>
+  `
 })
 export class LazyComponent {
   

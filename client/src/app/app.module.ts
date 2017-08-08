@@ -11,7 +11,6 @@ import { EagerComponent } from './eager/eager.component';
   declarations: [
     AppComponent,
     EagerComponent
-    
   ],
   imports: [
     BrowserModule,
